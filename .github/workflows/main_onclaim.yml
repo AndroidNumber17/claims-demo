@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'onclaim'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25E6155034BD4CC695F341B775EDC17D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_23ECA5318D76470A91621B65DD96D019 }}
           package: .
