@@ -8,15 +8,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: azure({
-			pages: 'build',
-			assets: 'build',
-			fallback: null,
-			esbuildOptions: {
-				external: ['@azure/msal-browser']
-			}
-		}),
-		prerender: { entries: ['*']},
+		adapter: azure()
 	}
 };
 
